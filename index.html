@@ -464,6 +464,74 @@
             <use href="./img/sprite.svg#close"></use>
           </svg>
         </button>
+        <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
+        <form class="modal-form" autocomplete="off">
+          <label class="modal-form-label">
+            Имя
+            <span class="modal-form-wrapper">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-form-input"
+                minlength="2"
+                required
+              />
+              <svg class="modal-form-icon" width="18px" height="18px">
+                <use href="./img/sprite.svg#person-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-form-label">
+            Телефон
+            <span class="modal-form-wrapper">
+              <input
+                type="tel"
+                name="user-telephone"
+                class="modal-form-input"
+                required
+              />
+              <svg class="modal-form-icon" width="18px" height="18px">
+                <use href="./img/sprite.svg#phone-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-form-label">
+            Почта
+            <span class="modal-form-wrapper">
+              <input
+                type="email"
+                name="user-email"
+                class="modal-form-input"
+                required
+              />
+              <svg class="modal-form-icon" width="18px" height="18px">
+                <use href="./img/sprite.svg#email-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label for="modal-message" class="modal-form-label"
+            >Комментарий</label
+          >
+          <textarea
+            name="user-message"
+            id="modal-message"
+            placeholder="Введите текст"
+            class="form-label-textarea"
+          ></textarea>
+          <input
+            type="checkbox"
+            name="user-terms"
+            id="term-checkbox"
+            class="form-term-checkbox visually-hidden"
+            required
+          />
+          <label for="term-checkbox" class="form-term-label">
+            Соглашаюсь с рассылкой и принимаю&nbsp;<a href=""
+              >Условия договора</a
+            >
+          </label>
+          <button type="submit" class="modal-form-button">Отправить</button>
+        </form>
       </div>
     </div>
 
