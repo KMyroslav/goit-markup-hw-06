@@ -596,6 +596,11 @@ body {
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.newsletter-signup-input:focus {
+  outline: none;
+  border: 1px solid var(--accent);
+}
 .newsletter-signup-button {
   display: flex;
   align-items: center;
