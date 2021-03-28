@@ -569,7 +569,7 @@ body {
   margin-left: 93px;
 }
 
-.newsletter-signup-wrapper {
+.newsletter-signup-form {
   display: flex;
 }
 
@@ -577,6 +577,7 @@ body {
   margin-bottom: 20px;
 
   line-height: 1.14;
+  text-transform: uppercase;
   color: var(--secondary-white-text);
 }
 
